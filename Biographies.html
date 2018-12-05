@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Create Account</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="atas">
+    <h2><font color="#5c8a8a">ma Family</h2>
+  </div>  
+  <div class="navbar">
+    <ul>
+      <a href="index.html"><li>Homepage</li></a>  
+      <a href="FamilyTree.html"><li>Family Tree</li></a>
+      <a href="Biographies.html"><li>Biographies</li></a>
+      <a href="SeeAmoment.html"><li>See a Moment</li></a>
+      <a href="index.html"><li>Logout</li></a>
+
+    </ul>
+  </div>
+    <div id="fitur">
+      <div class="konten">
+        <div class="row2">
+          <div class="4u">  
+            <section>
+            <script>
+             function inputan()
+                {
+                   var input = document.getElementById('nama1');
+                   var hasil = document.getElementById('nama2');
+                   var nama3 = document.getElementById('nama3');
+                   hasil.innerHTML = input.value;
+                   nama3.innerHTML = input.value;
+                   var input = document.getElementById('email1');
+                   var hasil1 = document.getElementById('email2');
+                   var email3 = document.getElementById('email3');
+                   hasil1.innerHTML = input.value;
+                   email3.innerHTML = input.value;
+                   var input = document.getElementById('Date1');
+                   var hasil2 = document.getElementById('Date2'); 
+                   var Date3 = document.getElementById('Date3');      
+                   hasil2.innerHTML = input.value;
+                   Date3.innerHTML = input.value;
+                   var input = document.getElementById('gender1');
+                   var hasil3 = document.getElementById('gender2');
+                   var gender3 = document.getElementById('gender3');
+                   hasil3.innerHTML = input.value;
+                   gender3.innerHTML = input.value;
+                   var input = document.getElementById('rls1');
+                   var hasil4 = document.getElementById('rls2');
+                   var rls3 = document.getElementById('rls3');      
+                   hasil4.innerHTML = input.value;
+                   rls3.innerHTML = input.value;
+                   var input = document.getElementById('status1');
+                   var hasil5 = document.getElementById('status2');
+                   var status3 = document.getElementById('status3');      
+                   hasil5.innerHTML = input.value;
+                   status3.innerHTML = input.value;
+                } 
+        </script>
+
+            <style>
+                    #pop{
+                        height: 280px;
+                        width: 470px;
+                        position: fixed;
+                        bottom: 20%;
+                        right: 30%;
+                        border: 2px solid;
+                        padding: 10px;
+                        background-color:peachpuff;
+                        border-radius: 4px;
+                        display: none;
+                    }
+                    #close{
+                        right: 5;
+                        top: 5;
+                        float: left;
+                    }
+            </style>
+
+    </head>
+
+    <body>
+
+        <div id="input">
+            <table width="638" height="300" align="center">
+  <tr>
+    <td height="94" valign="top" bgcolor="#5c8a8a"><font color="#f2f5f7"><br>
+      </font>
+      <blockquote>
+        <p>
+          <center>
+            <font color="#f2f5f7" size="+1">Biographies</font>
+          </center>
+      </blockquote>
+    </td>
+  </tr>
+  <tr>
+    <td width="669" valign="top" bgcolor=""><blockquote><p>
+  <br>
+  <form name="biodata" method="post" action="tabeltugas.html">
+    <pre>
+          Name          : <input type="text" name="nama1" id="nama1">
+          Email         : <input type="email" name="email1" id="email1"> 
+          Date          : <input type="datetime" name="Date1" id="Date1">
+          Gender        : <select name="gender1" id="gender1">  
+                    <option>Male
+                    <option>Female
+                    </select>
+          Relathionship : <select name="rls1" id="rls1">
+                                                        <option>Father
+                                                        <option>Mother
+                                                        <option>Daughter
+                                                        <option>Son
+                                                        <option>Sister
+                                                        <option>Brother
+                                                        <option>Other...
+                                                      </select>   
+          Status        : <select name="status1" id="status1">
+          <option>Living
+          <option>Deceased
+    </select> 
+    <br>
+    <center><input onClick="inputan()" type="button" value="SAVE"/>
+        </div><br></center>
+    </pre>
+    </table>
+    <br><br>
+        <div id="output">
+      <table border="1" id="tabelinput" align="center">
+      <td>Name</td>
+      <td>Email</td>
+      <td>Date</td>
+      <td>Gender</td>
+      <td>Relathionship</td> 
+      <td>Status</td> 
+      <tr>
+      <tr>
+      <td><label id="nama2"></label></td>
+      <td><label id="email2"></label></td>
+      <td><label id="Date2"></label></td>
+      <td><label id="gender2"></label></td>
+      <td><label id="rls2"></label></td>
+      <td><label id="status2"></label></td>
+      </tr>
+     </tr>
+      </table>
+      
+      <br>
+        <input onClick="document.getElementById('pop').style.display='block'" type="button" value="Detail"/>
+        </div>
+
+        <div id="pop">
+        <button id="close" onClick="document.getElementById('pop').style.display='none'">X</button><br>
+        <p><center>Detail</center></p>
+          <label> Name          :</label>
+          <label id="nama3"></label><br>
+          <label> Email         :</label>
+          <label id="email3"></label><br>
+          <label> Birthdate     :</label>
+          <label id="Date3"></label><br>
+          <label>Gender         :</label>
+          <label id="gender3"></label><br>
+          <label> Relathionship :</label>
+          <label id="rls3"></label><br>
+          <label>Status         : </label>
+          <label id="status3"></label><br>
+        </div>
+    </section>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+

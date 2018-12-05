@@ -1,0 +1,200 @@
+*{
+	margin:0px;
+}
+body{
+	background-image: url(images/yolo2.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+h2{
+	position: absolute;
+	margin-left: 50px;
+	margin-top: 30px;
+	font-size: 50px;
+}
+.footer{
+position: absolute;
+	float: bottom;
+	color: blue;
+	margin-left: 50px;
+	margin-top: 30px;
+	font-size: 50px;	
+}
+
+h3 {
+		padding: 0px 0px 20px 0px;
+		letter-spacing: -1px;
+		font-size: 1.8em;
+	}
+
+.navbar 
+{
+	position: absolute;
+	padding-bottom: 10px;
+	margin-bottom: 20px; 
+	margin: 10px;
+	margin-left: 500px;
+	margin-top: 35px;
+	
+
+}
+
+.navbar ul
+{
+	text-decoration: none;	
+}
+
+.navbar li
+{
+	float: left;
+	list-style: none;
+	background-color: #5c8a8a;
+	margin: 5px;
+	width: 100px;
+	height: 30px;
+	text-align: center;
+	border-radius: 0px;
+	color: white;
+
+	padding-top: 10px;
+}
+.navbar :hover{
+	background-color: dimgrey;
+}
+
+.navbar li a
+{
+	padding-top: 50px;
+	padding-top: 50px;
+}
+
+#atas{
+	background-color: #ffddcc;
+	height: 90px;
+	position: absolute;
+	width: 100%;
+
+
+}
+
+.konten	 {
+		width: 1200px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.row1 > * {
+			padding: 50px 0 0 50px;
+			float: left;
+			-moz-box-sizing: border-box;
+			-webkit-box-sizing: border-box;
+			-o-box-sizing: border-box;
+			-ms-box-sizing: border-box;
+			box-sizing: border-box;
+		}
+		
+    .row3 > * {
+			padding: 50px 0 0 50px;
+			float: left;
+			-moz-box-sizing: border-box;
+			-webkit-box-sizing: border-box;
+			-o-box-sizing: border-box;
+			-ms-box-sizing: border-box;
+			box-sizing: border-box;
+		}
+
+    .row4 > * {
+			padding: 50px 0 0 50px;
+			float: left;
+			-moz-box-sizing: border-box;
+			-webkit-box-sizing: border-box;
+			-o-box-sizing: border-box;
+			-ms-box-sizing: border-box;
+			box-sizing: border-box;
+		}
+
+	.row5 > * {
+			padding: 50px 0 0 50px;
+			float: left;
+			-moz-box-sizing: border-box;
+			-webkit-box-sizing: border-box;
+			-o-box-sizing: border-box;
+			-ms-box-sizing: border-box;
+			box-sizing: border-box;
+		}
+
+		.row1 {
+			margin-left: 150px;
+		}
+
+		.row2 {
+			margin-left: 275px;
+		}
+
+		.row3 {
+			margin-left: 350px;
+		}
+
+		.row4 {
+			margin-left: 375px;
+			width: 40cm;
+			height: 15cm;
+		}
+
+		.row5 {
+			margin-left: 300px;
+			width: 40cm;
+			height: 15cm;
+		}
+
+				.image img
+				{
+					display: block;
+					width: 100%;
+				}
+
+		.\33 u { width: 25% }
+		
+		
+.seeMom li
+{
+	list-style: none;
+	height: 200px;
+    width: 200%;
+}
+.seeMom li img
+{
+
+	height: 200px;
+	width: 100%;
+}
+.column {
+    float: left;
+    width: 50%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+#fitur
+		{
+			padding: 10em 0em 4em 0em;
+		}
+		p{
+			margin-bottom: 2em;
+			line-height: 160%;
+		}
+#banner
+		{
+			position: relative;
+			background: #333 url(images/yolo.jpg) no-repeat center;
+			border-radius: 20px;
+			background-size: cover;
+		}
+.addmom{
+		
+}

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Family Tree</title>
+    <link rel="stylesheet" href="style.css">
+    <script src='jscreate.js'></script>
+</head>
+<body>
+	<div id="atas">
+		<h2><font color="#5c8a8a">ma Family</h2>
+	</div>	
+	<div class="navbar">
+		<ul>
+			<a href="index.html"><li>Homepage</li></a>	
+			<a href="Family Tree.html"><li>Family Tree</li></a>
+			<a href=""><li>Biographies</li></a>
+			<a href=""><li>See a Moment</li></a>
+			<a href=""><li>Logout</li></a>
+
+		</ul>
+	</div>
+    <div id="fitur">
+        <div class="konten">
+            <div class="row2">
+                <div class="4u">	
+                    <section>
+                        <table width="638" height="300" border="1" align="center">
+                          <tr>
+                            <td height="94" valign="top" bgcolor="#5c8a8a"><font color="#FFFFFF"><br></font>
+                          <blockquote>
+                                <p>
+                                  <center>
+                                    <font color="#FFFFFF" size="+1">Add Family</font>
+                                            </center>
+                                        </p>
+                                    </blockquote>
+                                </td>
+                          </tr>
+                          <tr>
+                            <td width="669" valign="top" bgcolor="#FFFFFF"><blockquote>
+                                <br>
+                            <form name="biodata" method="post" action="tabeltugas.html">
+                                  <pre>
+                                  Name	        : <input type="text" name="name">	
+                                  Birthdate	: <input type="text" name="birthdate">
+                                  Gender        : <select name="gender">	
+                                                        <option>Male
+                                                           <option>Female
+                                                  </select>
+                                  Relathionship	: <input type="text" name="relathionship">	
+                                  Status	: <select name="status">
+                                                        <option>Live
+                                                        <option>Die
+                                                      </select>	
+                                  </pre>
+                                <center>
+                                  <input type="button" onclick="terimainput(),runPopup()" value="Save"></center>
+                                   </td>
+                          </tr>
+                        </table>
+                        <br><br><br>
+                        <table border="1" id="tabelinput" align="center">
+                            <td>Name</td>
+                            <td>Birdate</td>	
+                            <td>Gender</td>
+                            <td>Relathionship</td>
+                            <td>Status</td>
+                        </table>	
+                    </section>	
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
